@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { AppContext } from "../wordle";
-import Key from "./Key";
+
 
 function Letter({ letterPos, attemptVal }) {
   const { board, correctWord, currentAttempt, setDisabledLetters, currentWord, green } =
