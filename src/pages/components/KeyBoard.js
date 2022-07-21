@@ -31,7 +31,7 @@ function KeyBoard() {
       });
       
     }
-  },[]
+  },[keys1, keys2, keys3, onDelete, onEnter, onSelectLetter]
   )
 
   useEffect(()=>{
