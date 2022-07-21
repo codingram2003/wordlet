@@ -25,7 +25,7 @@ function Login() {
     })
   };
   const login=()=>{
-    Axios.post('https://wordle-123.herokuapp.com/api/login', {luserName:luserName, lpassword:lpassword}).then((response)=>{
+    Axios.post('https://wordle-123.herokuapp.com/api/login/', {luserName:luserName, lpassword:lpassword}).then((response)=>{
       if (response.data.message){
         setLoginstatus(response.data.message)
       } else{
