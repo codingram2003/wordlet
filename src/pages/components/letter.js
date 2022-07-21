@@ -19,7 +19,7 @@ function Letter({ letterPos, attemptVal }) {
         [...prev, letter]
       )
     }
-  },[currentAttempt.attempt]);
+  },[currentAttempt.attempt, letter, correct,almost ,setDisabledLetters]);
   
   return (
     <div className="letter" id={letterState} >
